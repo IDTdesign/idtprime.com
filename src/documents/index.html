@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Welcome to Prime Card</title>
+    <map name="map1">
+        <area shape="rect" coords="1303,459,1387,476" href="sharing_money.html" alt="SHARING MONEY">
+    </map>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="nivo-slider.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="slide_theme_default.css" rel="stylesheet" type="text/css" media="all" />
+    <script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+    <script>
+        $(function(){
+
+            $("#selected").addClass("actived_round");
+        });
+    </script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider(
+                {
+                    effect: 'fold',
+                    animSpeed: 500, // Slide transition speed
+                    pauseTime: 5000, // How long each slide willshow
+                });
+            setTimeout(function(){
+                $("#chat_open").trigger('click');
+            },10000);
+
+        });
+    </script>
+</head>
+<body>
+
+    <div id="wrapper">
+        <!-- Chat -->
+        <div id="chat" >
+            <!-- BEGIN Comm100 Live Chat Button Code --><a href="http://livechat.comm100.com/" target="_blank" id="chat_open" onclick="comm100_156710.openChatWindow(event,207,-1);return false;"><img style="border:0px" id="comm100_ButtonImage" src="https://chatserver.comm100.com/BBS.aspx?siteId=156710&amp;planId=207&amp;partnerId=-1" alt="Live Chat"/></a><script src="https://chatserver.comm100.com/js/LiveChat.js?siteId=156710&amp;planId=207&amp;partnerId=-1" type="text/javascript"></script><br /><!-- End Comm100 Live Chat Button Code -->
+        </div>
+        <!-- Chat End -->
+
+        <div id="header">
+            <div id="logo"><a href="index.html"><img src="images/logo.png" alt="prime logo" /></a></div>
+            <div id="cards_icons"><img src="images/cards_icon.png" alt="cards icon" /></div>
+        </div>
+
+        <div id="menu">
+            <ul class="main_menu">
+                <li  class="main_li"><a  id="selected" href="index.html">HOME</a></li>
+                <li  class="main_li"><a href="benefits_incognito.html">BENEFITS & FEATURES</a></li>
+                <li  class="main_li" id="how_to_get"><a href="#" >HOW TO GET PRIME</a>
+                    <ul class="sub_menu">
+                        <li><a href="buy_in_store.html">BUY IN STORE</a></li>
+                        <li><a href="https://extraapp2008/svpeuro/signup/home/start/prime/">BUY NOW</a></li>
+                    </ul>
+                </li>
+                <li  class="main_li"><a href="faqs.html">FAQs</a></li>
+                <li  class="main_li"><a href="https://extraapp2008/svpeuro/register/home/login/prime/">REGISTER YOUR CARD</a></li>
+                <li  class="main_li"><a href="upgrade.html">UPGRADE YOUR CARD</a></li>
+                <li  class="main_li"><a href="https://extraapp2008:4431/svp/us/account/prime/">MY ACCOUNT</a></li>
+            </ul>
+        </div>
+
+        <div id="slide">
+
+            <div class="slider-wrapper theme-default" >
+
+                <div id="slider" class="nivoSlider">
+                    <a href="benefits_incognito.html"><img src="images/slide_img_1.jpg" alt="1. INCOGNITO: No forms, No identity checks, No credit history, No paper statements in the post, No personal details on the card." /></a>
+                    <a href="instantly_accepted.html"><img src="images/slide_img_2.jpg" alt="2. INSTANTLY YOURS: No links to your bank account, No forms, No identity checks, No paper statements in the post." /></a>
+                    <a href="clever_with_money.html"><img src="images/slide_img_3.jpg" alt="3. CLEVER WITH MONEY: Handy tools make it perfect for budgeting, Great for saving up for something special, Pre-paid means you never pay interest." /></a>
+                    <a href="online_shopping.html"><img src="images/slide_img_4.jpg" alt="4. ONLINE SHOPPING: Shop online 24/7, Accepted on 1000s of websites, Get the best deals online, CVV security for safe transactions." /></a>
+                    <a href="pocket_money.html"><img src="images/slide_img_5.jpg" alt="5. POCKET MONEY: Safer than cash, just block the card if you lose it, Handy tools make it perfect for budgeting." /></a>
+                    <a href="travel-with_confidence.html"><img src="images/slide_img_6.jpg" alt="6. TRAVEL WITH CONFIDENCE: If you lose your card, just block it, Accepted worldwide, Low fees for withdrawing cash at international ATM’s’." /></a>
+                    <a href="sharing_money.html"><img src="images/slide_img_7.jpg" usemap="#map1" alt="7. SHARING MONEY: Instant global money share, Both local and overseas." /></a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="content_area">
+
+            <div id="home_content">
+                <div style="padding:20px;">
+                    <h1>About Prime</h1>
+                    <p>The Prime Prepaid MasterCard is like any other MasterCard, you can use it in over 33 million outlets across the globe – online, in shops and over the phone. In fact, wherever you see the MasterCard Acceptance Mark. You can also withdraw money from ATMs and share money with family and friends around the world when you upgrade.</p>
+                    <a href="benefits_incognito.html"><p style="font-weight:bold;padding-top:12px;">Learn more about Prime Card <img src="images/idt_prime_mastercard_prepay_arrow_img.png" alt="" /></p></a>
+                </div>
+                <a href="cashback.html"><img src="images/cash_back_img.gif" alt="cash back" /></a>
+
+            </div>
+
+            <div id="home_right_box">
+                <img src="images/card_img.png" id="float_card_img" alt="Prime card" />
+                <a href="buy_in_store.html"><img src="images/get_prime_img.jpg" alt="GET PRIME: order online or find your nearest store" /></a>
+
+                <div id="home_register_card_box">
+                    <table style="width: 100%;">
+                        <tr>
+                            <td><a href="https://extraapp2008/svpeuro/register/home/login/prime/"><img src="images/register_card_btn.png" alt="Register your card" /></a></td>
+                            <td style="color:#FFFFFF;">&laquo; For secure online shopping</td>
+                        </tr>
+
+                        <tr>
+                            <td style="padding-top:15px"><a href="upgrade.html"><img src="images/upgrade_card_btn.png" alt="Upgrade your card"  /></a></td>
+                            <td style="color:#FFFFFF;padding-top:15px">&laquo; Get more from Prime</td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2" style="padding-top:15px"><span style="color:#FFFFFF;">Existing Prime Customers</span> <a style="color:#c7a348;" href="buy_in_store.html">Reload Card</a> <img src="images/arrow_img.png" alt="" /></td>
+                        </tr>
+
+                    </table>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div id="footer_wrapper">
+        <div id="footer">
+
+            <div id="footer_left">
+                <div id="footer_logo"><img src="images/footer_logo.png" alt="logo" /></div>
+                <div id="footer_btns">
+                    <ul>
+                        <li><a href="corporate_enquiry.html"><img src="images/corp_enq_btn.png" alt="Corporate enquiry" /></a></li>
+                        <li><a href="http://www.idtfinance.com/" target="_blank"><img src="images/about_us_btn.png" alt="About Us" /></a></li>
+                        <li><a href="personal_enqury.html"><img src="images/personal_enq_btn.png" alt="Personal enquiry" /></a></li>
+                        <li><a href="contact_us.html"><img src="images/contact_us_btn.png" alt="Contact Us" /></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="footer_right">
+                <ul id="footer_right_icons">
+                    <li><img src="images/epay_icon.png" alt="epay" /></li>
+                    <li><img src="images/pay_point_icon.png" alt="paypoint" /></li>
+                    <li><img src="images/post_office_icon.png" alt="post office" /></li>
+                </ul>
+                <div id="t_and_c"><a href="terms_condition.html">Terms & Conditions</a></div>
+            </div>
+            <div style="clear:both"></div>
+            <div id="footer_note">
+                <p >
+                    The Prime Card is issued by IDT Financial Services Limited pursuant to a license from MasterCard International Incorporated. MasterCard and the MasterCard Brand Mark are registered trademarks of MasterCard International Incorporated. IDT Financial Services Limited is a regulated bank, licensed by the Financial Services Commission, Gibraltar. Registered Office: 57-63 Line Wall Road, Gibraltar. Registered No. 95716. All communications should be sent to IDT Financial Services Limited, PO Box 1374, Gibraltar.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

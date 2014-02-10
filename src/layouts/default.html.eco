@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <%- @partial('html-head') %>
+</head>
+<body>
+<div id="bg_wraper">
+    <%- @partial('chat') %>
+    <div id="wrapper">
+        <div id="header">
+            <div id="logo"><a href="index.html"><img src="images/logo.png" border="0" /></a></div>
+            <div id="cards_icons"><img src="images/cards_icon.png" /></div>
+        </div>
+        <%- @partial('mainmenu') %>
+        <div id="content_area">
+        <% if (@document.aside) : %>
+            <div id="benifit_contnt_lft">
+            <%- @partial(@document.aside) %>
+            </div>
+            <div id="benifit_contnt_rgt">
+                <div id="benifit_contnt_middle">
+                    <div id="benifit_contnt_middle_contnt">
+                        <%- @content %>
+                    </div>
+                    <%- @partial('rightbanner') %>
+                </div>
+            </div>
+        <% else : %>
+            <div id="contnt_rgt">
+                <div id="contnt_middle">
+                    <div id="contnt_middle_contnt">
+                        <%- @content %>
+                    </div>
+                    <%- @partial('rightbanner') %>
+                </div>
+            </div>
+        <% end %>
+        </div>
+    </div>
+    <%- @partial('footer') %>
+</div>
+</body>
+</html>
