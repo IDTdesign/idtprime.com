@@ -38,11 +38,11 @@ To preview site in browser open [http://localhost:9778](http://localhost:9778)
 
 Run `docpad generate --env static` inside your project directory to compile the site.
 
-Copy site from folder *out* to your webserwer.
+Copy site from folder *out* to your webserver.
 
 ## Troubleshooting
 
-In case of any problems try first to update DocPad.
+In case of any problems try first to [update DocPad](#install--update-docpad).
 
 
 ## License
