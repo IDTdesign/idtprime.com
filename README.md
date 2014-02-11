@@ -10,7 +10,7 @@ To run this site locally you should have installed:
 
     **IMPORTANT.** When installing GIT on Windows, make sure you install with the option of making git available to the windows command line.
 
-    ![Git options][docs/images/readme-git-options.PNG]
+    ![Git options](https://github.com/interpaul/idtprime.com/raw/master/docs/images/readme-git-options.PNG)
 
 See also [instruction](http://bevry.me/learn/node-install) for setting up Node.js environment under Mac Os and Linux.
 
