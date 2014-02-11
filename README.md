@@ -18,7 +18,8 @@ See also [instruction](http://bevry.me/learn/node-install) for setting up Node.j
 
 On Windows:
 
-1. Run 'Node.js command promt' as Administrator.
+1. Run 'Node.js command promt' as Administrator.  
+    ![Node.js command promt](https://github.com/interpaul/idtprime.com/raw/master/docs/images/readme-run-node-js-command-promt.png)
 2. Type `npm install -g npm` and press «Enter» to update Node Package Manager.
 3. Type `npm install -g docpad@6.63` and press «Enter» to install DocPad globally.
 4. Close Node.js command promt, run Windows command promt (cmd) as regular user and navigate to your folder with project.
