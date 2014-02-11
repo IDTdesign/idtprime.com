@@ -26,5 +26,24 @@ On Windows:
 
 For other systems check [manual](http://docpad.org/docs/install) at official site.
 
+## Running DocPad locally
+
+`docpad run` in **cmd** inside your project directory to compile the site, start the webserver and watch for changes.
+
+To preview site in browser open [http://localhost:9778](http://localhost:9778)
+
+[Full list](http://docpad.org/docs/cli) of commands.
+
+## Deploy
+
+Run `docpad generate --env static` inside your project directory to compile the site.
+
+Copy site from folder *out* to your webserwer.
+
+## Troubleshooting
+
+In case of any problems try first to update DocPad.
+
+
 ## License
 IDT &copy; 2014+ All rights reserved.
