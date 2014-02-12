@@ -6,7 +6,7 @@ node_modules/
 out/
 rsync.bat
 .docpad.db
-
+npm-debug.log
 
 #################
 ## Eclipse
