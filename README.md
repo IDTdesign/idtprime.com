@@ -42,13 +42,13 @@ To preview site in browser open [http://localhost:9778](http://localhost:9778)
 `src/partials` — includes used in templates  
 `src/files`    — resources
 
-More docs at [DocPad site](http://docpad.org/docs).
+More docs at [DocPad site](http://docpad.org/docs/overview).
 
 ## Deploy
 
-Run `docpad generate --env static` inside your project directory to compile the site.
+Run `docpad generate` inside your project directory to compile the site.
 
-Copy site from folder *out* to your webserver.
+Static pages of the site will be rendered in `out` directory.
 
 ## Troubleshooting
 
