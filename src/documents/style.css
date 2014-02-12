@@ -310,11 +310,11 @@ ul#footer_right_icons li {
 #footer_note p {font-size:11px; text-align:justify; line-height:13px; color: rgb(106, 94, 61); }
 
 
-#benifit_contnt_lft,
-#faqs_contnt_lft {
+#benifit_contnt_lft {
 	width:228px;
 	min-height:400px;
 	border-radius: 0 0 0 5px;
+	color: #000;
 	background-color: #a9955f;
 	background-image: 
 	url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAATCAMAAABm1ZcrAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADlQTFRFqJRfpZJdhHRKjXxPRDwmn4xZal07pJBcqJRelYNUmYdWf3BIVEsvoo9biHhNp5NekYBSnIpYe2xFzOEBTAAAAChJREFUeNoEwQkCgBAAALBFzor4/2Ntbq9sewRD9Gu6JfkUl6lyBBgADYcArINi45AAAAAASUVORK5CYII=)

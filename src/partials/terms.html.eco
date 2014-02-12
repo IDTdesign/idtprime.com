@@ -1,28 +1,30 @@
 		<div style="padding:20px; ">
-			<h3><a id="select" href="terms_condition.html">TERMS AND CONDITIONS</a></h3>
+			<h3>Archived Terms and Conditions:</h3>
 			<ul class="terms_lft_menu">
 				<li>Reloadable High Limit</li>
-				<li><a href="reloadable_high_limit_jan_2012_latest.html">Jan 2012 (Latest)</a></li>
-				<li><a href="reloadable_high_lmit_jan_2011.html">Jan 2011</a></li>
+				<li><a href="terms/ReloadJan2012.pdf">Jan 2012</a></li>
+				<li><a href="terms/ReloadJan11.pdf">Jan 2011</a></li>
 			</ul>
 			<ul class="terms_lft_menu">
 				<li>Reloadable Instant</li>
-				<li><a href="reloadable_instant_jan_2012_latest.html">Jan 2012(Latest)</a></li>
-				<li><a href="reloadable_instant_decmber_2010.html">December 2010</a></li>
-				<li><a href="reloadable_instant_sept_2011.html">September 2011</a></li>
+				<li><a href="terms/instantApr2013.pdf">Apr 2013</a></li>
+				<li><a href="terms/instantFeb2012.pdf">Feb 2012</a></li>
+				<li><a href="terms/instantJan2012.pdf">Jan 2012</a></li>
+				<li><a href="terms/AnonReloadDec10.pdf">December 2010</a></li>
+				<li><a href="terms/instantSept2011.pdf">September 2011</a></li>
 			</ul>
 			<ul class="terms_lft_menu">
 				<li>Disposable</li>
-				<li><a href="dispoable_sept_2011.html">September 2011</a></li>
-				<li><a href="dispoable_sept_2010.html">September 2010</a></li>
-				<li><a href="dispoable_july_2007.html">July 2007</a></li>
-				<li><a href="dispoable_may_2008.html">May 2008</a></li>
-				<li><a href="dispoable_feb_2007.html">February 2007</a></li>
+				<li><a href="terms/DispSept11.pdf">September 2011</a></li>
+				<li><a href="terms/DispSept10.pdf">September 2010</a></li>
+				<li><a href="terms/DispMay08.pdf">July 2007</a></li>
+				<li><a href="terms/DispJuly07.pdf">May 2008</a></li>
+				<li><a href="terms/DispFeb07.pdf">February 2007</a></li>
 			</ul>
 			<ul class="terms_lft_menu">
 				<li>Reloadable Old</li>
-				<li><a href="reloadable_old_may_2008.html">May 2008</a></li>
-				<li><a href="reloadable_old_march_2008.html">March 2008</a></li>
-				<li><a href="reloadable_old_oct_2007.html">October 2007</a></li>
+				<li><a href="terms/ReloadMay08.pdf">May 2008</a></li>
+				<li><a href="terms/ReloadMarch08.pdf">March 2008</a></li>
+				<li><a href="terms/ReloadOct07.pdf">October 2007</a></li>
 			</ul>
 		</div>
