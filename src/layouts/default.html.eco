@@ -9,8 +9,8 @@
     <%- @partial('chat') %>
     <div id="wrapper">
         <div id="header">
-            <div id="logo"><a href="index.html"><img src="images/logo.png" border="0" /></a></div>
-            <div id="cards_icons"><img src="images/cards_icon.png" /></div>
+            <div id="logo"><a href="index.html"><img src="images/logo.png"  alt="prime logo" /></a></div>
+            <div id="cards_icons"><img src="images/cards_icon.png" alt="cards icon" /></div>
         </div>
         <%- @partial('mainmenu') %>
         <div id="content_area">

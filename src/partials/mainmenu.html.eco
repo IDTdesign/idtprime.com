@@ -4,8 +4,8 @@
                 <li class="main_li"><a href="benefits_incognito.html" class="<%- @isActive("/benefits_incognito") %>">BENEFITS &amp; FEATURES</a></li>
                 <li class="main_li" id="how_to_get"><a href="#" >HOW TO GET PRIME</a>
                     <ul class="sub_menu">
-                        <li><a href="buy_in_store.html" class="<%- @isActive("/buy_in_store") %>">BUY IN STORE</a></li>
                         <li><a href="https://extraapp2008/svpeuro/signup/home/start/prime/">BUY NOW</a></li>
+                        <li><a href="buy_in_store.html" class="<%- @isActive("/buy_in_store") %>">BUY IN STORE</a></li>
                     </ul>
                 </li>
                 <li class="main_li"><a href="faqs.html" class="<%- @isActive("/faqs") %>">FAQs</a></li>

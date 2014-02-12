@@ -1,5 +1,5 @@
 		<div style="padding:20px;">
-			<ul>
+			<ol>
 				<li><a href="benefits_incognito.html" class="<%- @isActive("/benefits_incognito") %>">Private and Confidential</a></li>
 				<li><a href="instantly_accepted.html" class="<%- @isActive("/instantly_accepted") %>">Instantly Accepted</a></li>
 				<li><a href="clever_with_money.html" class="<%- @isActive("/clever_with_money") %>">Clever With Money</a></li>
@@ -7,5 +7,5 @@
 				<li><a href="pocket_money.html" class="<%- @isActive("/pocket_money") %>">Living Expenses for University</a></li>
 				<li><a href="travel-with_confidence.html" class="<%- @isActive("/travel-with_confidence") %>">Travel With Confidence</a></li>
 				<li><a href="sharing_money.html" class="<%- @isActive("/sharing_money") %>">Sharing Money</a></li>
-			</ul>
+			</ol>
 		</div>

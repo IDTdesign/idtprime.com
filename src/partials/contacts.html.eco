@@ -1,0 +1,7 @@
+			<div style="padding:20px;">
+				<ul>
+					<li><a href="corporate_enquiry.html" class="<%- @isActive("/corporate_enquiry") %>">Corporate Enquiry</a></li>
+					<li><a href="personal_enqury.html" class="<%- @isActive("/personal_enqury") %>">Personal Enquiry</a></li>
+					<li><a href="contact_us.html" class="<%- @isActive("/contact_us") %>">Contact Us</a></li>
+				</ul>
+			</div>
