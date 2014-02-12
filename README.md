@@ -35,6 +35,15 @@ To preview site in browser open [http://localhost:9778](http://localhost:9778)
 
 [Full list](http://docpad.org/docs/cli) of commands.
 
+## Developing
+
+`src/document` — content pages  
+`src/layout`   — template of the site  
+`src/partials` — includes used in templates  
+`src/files`    — resources
+
+More docs at [DocPad site](http://docpad.org/docs).
+
 ## Deploy
 
 Run `docpad generate --env static` inside your project directory to compile the site.
