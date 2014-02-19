@@ -689,3 +689,21 @@ html {
 	height: 100%;
 	background-image: url(images/marble.jpg);
 }
+input.btn_sbmit_imge
+{
+    -moz-box-sizing: border-box;
+    background: none repeat scroll 0 0 #AD8E4D;
+    border-color: #C5B289 #8C723E #483C2A #997C42;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 -10px 10px -5px rgba(72, 60, 42, 0.8) inset;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Geneva,Helvetica,Arial;
+    font-weight: normal;
+    height: auto;
+    padding: 4px 15px;
+    vertical-align: baseline;
+    width: auto;
+}
