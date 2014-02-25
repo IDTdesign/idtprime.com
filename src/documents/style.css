@@ -607,7 +607,7 @@ ul#footer_right_icons li {
 .faqs h4:nth-of-type(-1n+9):before {
     left: 1.1em;
 }
-.faqs p > img:not(:first-child) {
+.faqs p img + img {
     vertical-align: top;
     margin-left: 25px;
     margin-top: 5px;
