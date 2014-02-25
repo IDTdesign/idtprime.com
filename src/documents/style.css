@@ -580,8 +580,53 @@ ul#footer_right_icons li {
     margin: 0px;
     padding: 0px;
     text-transform: uppercase;
-}	
+}
 
+/*faqs page: h4 counter, table styles////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.faqs {
+    counter-reset: h4number;
+}
+.faqs {
+    position: relative;
+}
+.faqs h4 {
+    padding-left: 2.1em;
+}
+.faqs h4:nth-of-type(-1n+9) {
+    padding-left: 1.4em;
+}
+.faqs h4:before {
+    direction: rtl;
+    content: "." counter(h4number); 
+	counter-increment: h4number;
+    position: absolute;
+    left: 1.8em;
+    width: 0;
+    text-align: right;
+}
+.faqs h4:nth-of-type(-1n+9):before {
+    left: 1.1em;
+}
+.faqs p > img:not(:first-child) {
+    vertical-align: top;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+.faqs table {
+	border-collapse: collapse;
+	border: none;
+}
+.faqs table tr {
+    border-top: 1px solid grey;
+    vertical-align: top;
+}
+.faqs table tr:first-child {
+	border: none;
+    white-space: nowrap;
+}
+.faqs table tr td:first-child {
+    white-space: nowrap;
+}	
 
 /*register page/////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
