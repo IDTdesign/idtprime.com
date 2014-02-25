@@ -583,54 +583,50 @@ ul#footer_right_icons li {
 }
 
 /*faqs page: h4 counter, table styles////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-#benifit_contnt_middle_contnt {
+.faqs {
     counter-reset: h4number;
 }
-#benifit_contnt_middle_contnt {
+.faqs {
     position: relative;
 }
-#benifit_contnt_middle_contnt h1#faqs ~ h4 {
+.faqs h4 {
     padding-left: 2.1em;
 }
-#benifit_contnt_middle_contnt h1#faqs ~ h4:nth-of-type(-1n+9) {
+.faqs h4:nth-of-type(-1n+9) {
     padding-left: 1.4em;
 }
-#benifit_contnt_middle_contnt h1#faqs ~ h4:before {
+.faqs h4:before {
     direction: rtl;
     content: "." counter(h4number); 
-    counter-increment: h4number;
+	counter-increment: h4number;
     position: absolute;
-    left: 4.1em;
+    left: 1.8em;
     width: 0;
     text-align: right;
 }
-#benifit_contnt_middle_contnt h1#faqs ~ h4:nth-of-type(-1n+9):before {
-    left: 3.4em;
+.faqs h4:nth-of-type(-1n+9):before {
+    left: 1.1em;
 }
-#benifit_contnt_middle_contnt h1#faqs ~ p > img:not(:first-child) {
+.faqs p > img:not(:first-child) {
     vertical-align: top;
     margin-left: 25px;
     margin-top: 5px;
 }
-#benifit_contnt_middle_contnt h1#faqs ~ table {
+.faqs table {
 	border-collapse: collapse;
 	border: none;
 }
-#benifit_contnt_middle_contnt h1#faqs ~ table tr {
+.faqs table tr {
     border-top: 1px solid grey;
     vertical-align: top;
 }
-#benifit_contnt_middle_contnt h1#faqs ~ table tr:first-child {
+.faqs table tr:first-child {
 	border: none;
     white-space: nowrap;
 }
-#benifit_contnt_middle_contnt h1#faqs ~ table tr:nth-child(odd) {
-/*	background: #eee; */
-}
-#benifit_contnt_middle_contnt h1#faqs ~ table tr td:first-child {
+.faqs table tr td:first-child {
     white-space: nowrap;
 }	
-
 
 /*register page/////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
