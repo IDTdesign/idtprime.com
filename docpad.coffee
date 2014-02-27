@@ -35,7 +35,7 @@ docpadConfig = {
 
 			email: "radzkov@gmail.com"
 
-			# googleAnalyticsId: "UA-23761652-1"
+			googleAnalyticsId: "UA-23761652-1"
 
 			googleAnalyticsDomain: "idtprime.com"
 
