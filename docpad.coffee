@@ -122,6 +122,13 @@ docpadConfig = {
 			changefreq: 'weekly'
 			priority: 0.5
 
+		# sass:
+		# 	compass: "true"
+		# 	requireLibraries: ['singularitygs']
+		# 	outputStyle: 'expanded'
+		# 	sassPath: 'theValue'
+		# 	scssPath: 'theValue'
+		# 	compass: 'theValue'
 	# =================================
 	# DocPad Events
 

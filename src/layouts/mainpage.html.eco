@@ -6,8 +6,8 @@
     <map name="map1">
         <area shape="rect" coords="1303,459,1387,476" href="sharing_money.html" alt="SHARING MONEY">
     </map>
-    <link href="nivo-slider.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="slide_theme_default.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="styles/css/nivo-slider.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="styles/css/slide_theme_default.css" rel="stylesheet" type="text/css" media="all" />
     <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
     <script>
         $(function(){
