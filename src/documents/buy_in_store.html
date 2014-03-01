@@ -8,11 +8,11 @@ layout: default
 <p>Prime Cards can be bought from thousands of selected PayPoint and epay convenience stores across the UK.</p>
 
 <form action="buy_in_store.html" id="searchForm">
-	<input type="hidden" id="id" name="id" value="danjacobs">
-	<input type="hidden" id="range" name="range" value="-10">
-	<input type="text" size="40" maxlength="40" value="" id="code" name="code" placeholder="Type in postal code or store name" height="40">
+  <input type="hidden" id="id" name="id" value="danjacobs">
+  <input type="hidden" id="range" name="range" value="-10">
+  <input type="text" size="40" maxlength="40" value="" id="code" name="code" placeholder="Type in postal code or store name" height="40">
 
-	<input type="submit" value="Find Nearest" class="btn_sbmit_imge"><br>
+  <input type="submit" value="Find Nearest" class="btn_sbmit_imge"><br>
 </form>
 <div id="result"></div>
 <iframe id="streetmap" src="http://www.streetmap.co.uk/test/sl/danjacobs.srf?code=london" height="100%" style="border:none;min-height:500px;width:100%;" scrolling="auto">
@@ -25,12 +25,12 @@ getQueryString(); //get string and set values
 setIFrameSrc('streetmap', id, range, code);
 
 function setIFrameSrc(iFrameID, idValue, rangeValue, codeValue)
-	{
-	if (!isEmpty(idValue) && !isEmpty(rangeValue) && !isEmpty(codeValue) ){
-	    var myFrame = $('#' + iFrameID);
-	    var url = 'http://www.streetmap.co.uk/test/sl/danjacobs.srf' + '?all=true&id=' + idValue + '&rangeValue=' + rangeValue + '&code=' + codeValue;
-	    $(myFrame).attr('src', url);
-	 }
+  {
+  if (!isEmpty(idValue) && !isEmpty(rangeValue) && !isEmpty(codeValue) ){
+      var myFrame = $('#' + iFrameID);
+      var url = 'http://www.streetmap.co.uk/test/sl/danjacobs.srf' + '?all=true&id=' + idValue + '&rangeValue=' + rangeValue + '&code=' + codeValue;
+      $(myFrame).attr('src', url);
+   }
 }
 function getQueryString() {
   var qs = document.location.search,
@@ -53,12 +53,12 @@ function getQueryString() {
       //set field value to value
       if (el) {
           if(key=="id"){
-		        id = value;
-	      } else if(key=="range"){
-		        range = value;
-	      } else if(key=="code"){
-		        code = value;
-	      }
+            id = value;
+        } else if(key=="range"){
+            range = value;
+        } else if(key=="code"){
+            code = value;
+        }
         el.value = value;
       }
     }
