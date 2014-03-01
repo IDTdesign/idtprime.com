@@ -1,44 +1,44 @@
 <!doctype html>
 <html lang="en">
 <head>
-		<meta charset="UTF-8">
-		<%- @partial('html-head') %>
+    <meta charset="UTF-8">
+    <%- @partial('html-head') %>
 </head>
 <body>
 <div class="bg_wraper">
-		<%- @partial('chat') %>
-		<div class="wrapper">
-				<div id="header">
-						<div class="logo"><a href="index.html"><img src="images/logo.png" alt="prime logo" /></a></div>
-						<div class="cards_icons"><span class="sprite cards_icon"></span></div>
-				</div>
-				<%- @partial('mainmenu') %>
-				<div class="content_area">
-				<% if (@document.aside) : %>
-						<div class="benifit_contnt_lft">
-						<%- @partial(@document.aside) %>
-						</div>
-						<div class="benifit_contnt_rgt">
-								<div class="benifit_contnt_middle">
-										<div class="benifit_contnt_middle_contnt">
-												<%- @content %>
-										</div>
-										<%- @partial('rightbanner') %>
-								</div>
-						</div>
-				<% else : %>
-						<div class="contnt_rgt">
-								<div class="contnt_middle">
-										<div class="contnt_middle_contnt">
-												<%- @content %>
-										</div>
-										<%- @partial('rightbanner') %>
-								</div>
-						</div>
-				<% end %>
-				</div>
-		</div>
-		<%- @partial('footer') %>
+    <%- @partial('chat') %>
+    <div class="wrapper">
+        <div id="header">
+            <div class="logo"><a href="index.html"><img src="images/logo.png" alt="prime logo" /></a></div>
+            <div class="cards_icons"><span class="sprite cards_icon"></span></div>
+        </div>
+        <%- @partial('mainmenu') %>
+        <div class="content_area">
+        <% if (@document.aside) : %>
+            <div class="benifit_contnt_lft">
+            <%- @partial(@document.aside) %>
+            </div>
+            <div class="benifit_contnt_rgt">
+                <div class="benifit_contnt_middle">
+                    <div class="benifit_contnt_middle_contnt">
+                        <%- @content %>
+                    </div>
+                    <%- @partial('rightbanner') %>
+                </div>
+            </div>
+        <% else : %>
+            <div class="contnt_rgt">
+                <div class="contnt_middle">
+                    <div class="contnt_middle_contnt">
+                        <%- @content %>
+                    </div>
+                    <%- @partial('rightbanner') %>
+                </div>
+            </div>
+        <% end %>
+        </div>
+    </div>
+    <%- @partial('footer') %>
 </div>
 </body>
 </html>

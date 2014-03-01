@@ -8,11 +8,11 @@ layout: default
 <p>Prime Cards can be bought from thousands of selected PayPoint and epay convenience stores across the UK.</p>
 
 <form action="buy_in_store.html" id="searchForm">
-	<input type="hidden" id="id" name="id" value="danjacobs">
-	<input type="hidden" id="range" name="range" value="-10">
-	<input type="text" size="40" maxlength="40" value="" id="code" name="code" placeholder="Type in postal code or store name" height="40">
+  <input type="hidden" id="id" name="id" value="danjacobs">
+  <input type="hidden" id="range" name="range" value="-10">
+  <input type="text" size="40" maxlength="40" value="" id="code" name="code" placeholder="Type in postal code or store name" height="40">
 
-	<input type="submit" value="Find Nearest" class="btn_sbmit_imge"><br>
+  <input type="submit" value="Find Nearest" class="btn_sbmit_imge"><br>
 </form>
 <div id="result"></div>
 <iframe id="streetmap" src="http://www.streetmap.co.uk/test/sl/danjacobs.srf?code=london" height="100%" style="border:none;min-height:500px;width:100%;" scrolling="auto">
@@ -25,50 +25,50 @@ getQueryString(); //get string and set values
 setIFrameSrc('streetmap', id, range, code);
 
 function setIFrameSrc(iFrameID, idValue, rangeValue, codeValue)
-	{
-	if (!isEmpty(idValue) && !isEmpty(rangeValue) && !isEmpty(codeValue) ){
-			var myFrame = $('#' + iFrameID);
-			var url = 'http://www.streetmap.co.uk/test/sl/danjacobs.srf' + '?all=true&id=' + idValue + '&rangeValue=' + rangeValue + '&code=' + codeValue;
-			$(myFrame).attr('src', url);
-	 }
+  {
+  if (!isEmpty(idValue) && !isEmpty(rangeValue) && !isEmpty(codeValue) ){
+      var myFrame = $('#' + iFrameID);
+      var url = 'http://www.streetmap.co.uk/test/sl/danjacobs.srf' + '?all=true&id=' + idValue + '&rangeValue=' + rangeValue + '&code=' + codeValue;
+      $(myFrame).attr('src', url);
+   }
 }
 function getQueryString() {
-	var qs = document.location.search,
-		pairs,
-		pair,
-		key,
-		value,
-		el,
-		i,
-		n;
-	if (qs.length > 0) {
-		qs = qs.substr(1); // strip off the ?
-		pairs = qs.split(/&/);
-		for (i = 0, n = pairs.length; i < n; i++) {
-			pair = pairs[i].split(/=/);
-			key = pair[0];
-			//alert(key);
-			value = decodeURIComponent(pair[1].replace(/\+/g, " "));
-			el = document.getElementById(key);
-			//set field value to value
-			if (el) {
-					if(key=="id"){
-						id = value;
-				} else if(key=="range"){
-						range = value;
-				} else if(key=="code"){
-						code = value;
-				}
-				el.value = value;
-			}
-		}
-		pairs = null;
-		pair = null;
-		el = null;
-	}
+  var qs = document.location.search,
+    pairs,
+    pair,
+    key,
+    value,
+    el,
+    i,
+    n;
+  if (qs.length > 0) {
+    qs = qs.substr(1); // strip off the ?
+    pairs = qs.split(/&/);
+    for (i = 0, n = pairs.length; i < n; i++) {
+      pair = pairs[i].split(/=/);
+      key = pair[0];
+      //alert(key);
+      value = decodeURIComponent(pair[1].replace(/\+/g, " "));
+      el = document.getElementById(key);
+      //set field value to value
+      if (el) {
+          if(key=="id"){
+            id = value;
+        } else if(key=="range"){
+            range = value;
+        } else if(key=="code"){
+            code = value;
+        }
+        el.value = value;
+      }
+    }
+    pairs = null;
+    pair = null;
+    el = null;
+  }
 }
 function isEmpty(Tvalue){
-	return (Tvalue == null || Tvalue.length == '');
+  return (Tvalue == null || Tvalue.length == '');
 }
 //window.addEventListener ? window.addEventListener('load',getQueryString,false) : window.attachEvent('onload',getQueryString);
 
@@ -77,8 +77,8 @@ function isEmpty(Tvalue){
 // Attach a submit handler to the form
 $( "#searchForm" ).submit(function( event ) {
 
-	// Stop form from submitting normally
-	event.preventDefault();
+  // Stop form from submitting normally
+  event.preventDefault();
 // Get some values from elements on the page:
 var id = $('#id').attr("value");
 var range = $('#range').attr("value");
