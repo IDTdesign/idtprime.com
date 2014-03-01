@@ -1,16 +1,16 @@
-        <div id="menu">
-            <ul class="main_menu">
-                <li class="main_li"><a href="index.html" class="<%- @isActive("/") %>">HOME</a></li>
-                <li class="main_li"><a href="benefits_incognito.html" class="<%- @isActive("/benefits_incognito") %>">BENEFITS &amp; FEATURES</a></li>
-                <li class="main_li" id="how_to_get"><a href="#" >HOW TO GET PRIME</a>
-                    <ul class="sub_menu">
-                        <li><a href="https://extraapp2008/svpeuro/signup/home/start/prime/">BUY NOW</a></li>
-                        <li><a href="buy_in_store.html" class="<%- @isActive("/buy_in_store") %>">BUY IN STORE</a></li>
-                    </ul>
-                </li>
-                <li class="main_li"><a href="faqs.html" class="<%- @isActive("/faqs") %>">FAQs</a></li>
-                <li class="main_li"><a href="https://extraapp2008/svpeuro/register/home/login/prime/">REGISTER YOUR CARD</a></li>
-                <li class="main_li"><a href="upgrade.html" class="<%- @isActive("/upgrade") %>">UPGRADE YOUR CARD</a></li>
-                <li class="main_li"><a href="https://extraapp2008:4431/svp/us/account/prime/">MY ACCOUNT</a></li>
-            </ul>
-        </div>
+		<div class="menu">
+			<ul class="main_menu">
+				<li class="main_li"><a href="index.html" class="<%- @isActive("/") %>">HOME</a></li>
+				<li class="main_li"><a href="benefits_incognito.html" class="<%- @isActive("/benefits_incognito") %>">BENEFITS &amp; FEATURES</a></li>
+				<li class="main_li" id="how_to_get"><a href="#" >HOW TO GET PRIME</a>
+					<ul class="sub_menu">
+						<li><a href="https://extraapp2008/svpeuro/signup/home/start/prime/">BUY NOW</a></li>
+						<li><a href="buy_in_store.html" class="<%- @isActive("/buy_in_store") %>">BUY IN STORE</a></li>
+					</ul>
+				</li>
+				<li class="main_li"><a href="faqs.html" class="<%- @isActive("/faqs") %>">FAQs</a></li>
+				<li class="main_li"><a href="https://extraapp2008/svpeuro/register/home/login/prime/">REGISTER YOUR CARD</a></li>
+				<li class="main_li"><a href="upgrade.html" class="<%- @isActive("/upgrade") %>">UPGRADE YOUR CARD</a></li>
+				<li class="main_li"><a href="https://extraapp2008:4431/svp/us/account/prime/">MY ACCOUNT</a></li>
+			</ul>
+		</div>
