@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,8 +6,8 @@
     <map name="map1">
         <area shape="rect" coords="1303,459,1387,476" href="sharing_money.html" alt="SHARING MONEY">
     </map>
-    <link href="nivo-slider.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="slide_theme_default.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="styles/nivo-slider.css" rel="stylesheet" type="text/css" media="all" />
+
     <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
     <script>
         $(function(){
@@ -20,18 +20,18 @@
                 {
                     effect: 'fold',
                     animSpeed: 500, // Slide transition speed
-                    pauseTime: 5000, // How long each slide willshow
+                    pauseTime: 5000 // How long each slide willshow
                 });
         });
     </script>
 </head>
 <body>
 
-    <div id="wrapper">
+    <div class="wrapper">
         <%- @partial('chat') %>
         <div id="header">
-            <div id="logo"><a href="index.html"><img src="images/logo.png"  alt="prime logo" /></a></div>
-            <div id="cards_icons"><img src="images/cards_icon.png" alt="cards icon" /></div>
+            <div class="logo"><a href="index.html"><img src="images/logo.png"  alt="prime logo" /></a></div>
+            <div class="cards_icons"><span class="sprite cards_icon"></span></div>
         </div>
         <%- @partial('mainmenu') %>
         <%- @content %>
