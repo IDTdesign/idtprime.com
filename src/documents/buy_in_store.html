@@ -15,7 +15,7 @@ layout: default
 	<input type="submit" value="Find Nearest" class="btn_sbmit_imge"><br>
 </form>
 <div id="result"></div>
-<iframe id="streetmap" src="http://www.streetmap.co.uk/test/sl/danjacobs.srf?code=london" height="100%" style="border:none;min-height:500px;width:100%;" scrolling="auto">
+<iframe id="streetmap" src="http://www.streetmap.co.uk/sl/danjacobs.srf?" height="100%" style="border:none;min-height:500px;width:100%;" scrolling="auto">
 </iframe>
 <script>
 var id, range, code;
@@ -28,7 +28,7 @@ function setIFrameSrc(iFrameID, idValue, rangeValue, codeValue)
 	{
 	if (!isEmpty(idValue) && !isEmpty(rangeValue) && !isEmpty(codeValue) ){
 	    var myFrame = $('#' + iFrameID);
-	    var url = 'http://www.streetmap.co.uk/test/sl/danjacobs.srf' + '?all=true&id=' + idValue + '&rangeValue=' + rangeValue + '&code=' + codeValue;
+	    var url = 'http://www.streetmap.co.uk/sl/danjacobs.srf' + '?all=true&id=' + idValue + '&rangeValue=' + rangeValue + '&code=' + codeValue;
 	    $(myFrame).attr('src', url);
 	 }
 }
