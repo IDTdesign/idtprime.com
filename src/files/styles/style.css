@@ -375,6 +375,10 @@ ul.footer_right_icons li {
   position:relative;
   bottom:-10px;
   color: rgb(29, 25, 16);
+  display: block;
+  clear: both;
+  text-align: center;
+  padding: 3px 0;
 }
 
 .footer_note {
