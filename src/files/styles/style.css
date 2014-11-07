@@ -944,3 +944,12 @@ input.btn_sbmit_imge {
   vertical-align: baseline;
   width: auto;
 }
+
+.banner a{
+  display: block;
+  font-size: 0;
+}
+
+.account-banner{
+  margin: -35px 0 10px -35px;
+}
