@@ -1,10 +1,10 @@
     <div style="padding:20px;">
       <ol>
-        <li><a href="benefits_incognito.html" class="<%- @isActive("/benefits_incognito") %>">Private and Confidential</a></li>
-        <li><a href="instantly_accepted.html" class="<%- @isActive("/instantly_accepted") %>">Instantly Accepted</a></li>
+        <li><a href="benefits_browse_play_spend.html" class="<%- @isActive("/benefits_browse_play_spend") %>">Browse. Play. Spend.</a></li>
+        <li><a href="instantly_accepted.html" class="<%- @isActive("/instantly_accepted") %>">Instantly Yours</a></li>
         <li><a href="clever_with_money.html" class="<%- @isActive("/clever_with_money") %>">Clever With Money</a></li>
-        <li><a href="online_shopping.html" class="<%- @isActive("/online_shopping") %>">Online Shopping</a></li>
-        <li><a href="pocket_money.html" class="<%- @isActive("/pocket_money") %>">Living Expenses for University</a></li>
+        <li><a href="online_shopping.html" class="<%- @isActive("/online_shopping") %>">Be Confident Online</a></li>
+        <li><a href="pocket_money.html" class="<%- @isActive("/pocket_money") %>">Living Expenses</a></li>
         <li><a href="travel-with_confidence.html" class="<%- @isActive("/travel-with_confidence") %>">Travel With Confidence</a></li>
         <li><a href="sharing_money.html" class="<%- @isActive("/sharing_money") %>">Sharing Money</a></li>
       </ol>

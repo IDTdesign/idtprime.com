@@ -1,7 +1,7 @@
     <div class="menu">
       <ul class="main_menu">
         <li class="main_li"><a href="index.html" class="<%- @isActive("/") %>">HOME</a></li>
-        <li class="main_li"><a href="benefits_incognito.html" class="<%- @isActive("/benefits_incognito") %>">BENEFITS &amp; FEATURES</a></li>
+        <li class="main_li"><a href="benefits_browse_play_spend.html" class="<%- @isActive("/benefits_browse_play_spend") %>">BENEFITS &amp; FEATURES</a></li>
         <li class="main_li" id="how_to_get"><a href="#" >HOW TO GET PRIME</a>
           <ul class="sub_menu">
             <li><a href="https://ext.idt.net/svpeuro/signup/home/start/prime/">BUY NOW</a></li>
