@@ -953,3 +953,27 @@ input.btn_sbmit_imge {
 .account-banner{
   margin: -35px 0 10px -35px;
 }
+
+.btn_sbmit_imge.btn-archive{
+  display: inline-block;
+  width: auto;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  height: auto;
+  padding: 6px 12px;
+}
+
+.archived-terms{
+  margin-top: 20px;
+}
+
+.contnt_middle .archived-terms ul{
+  margin-bottom: 10px;
+}
+
+.archived-terms ul li:first-child{
+  list-style-type: none;
+  font-weight: bold;
+  margin-left: -20px;
+}
