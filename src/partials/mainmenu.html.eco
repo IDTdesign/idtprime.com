@@ -11,6 +11,6 @@
         <li class="main_li"><a href="faqs.html" class="<%- @isActive("/faqs") %>">FAQs</a></li>
         <li class="main_li"><a href="https://ext.idt.net/svpeuro/register/home/login/prime/">REGISTER YOUR CARD</a></li>
         <li class="main_li"><a href="upgrade.html" class="<%- @isActive("/upgrade") %>">UPGRADE YOUR CARD</a></li>
-        <li class="main_li"><a href="https://ext.idt.net/svp/us/account/prime/">MY ACCOUNT</a></li>
+        <li class="main_li"><a href="https://ext.idt.net/svpeuro/account/start/prime/">MY ACCOUNT</a></li>
       </ul>
     </div>
