@@ -977,3 +977,14 @@ input.btn_sbmit_imge {
   font-weight: bold;
   margin-left: -20px;
 }
+/*### HOCA PAGE ###*/
+.details-example{
+  padding: 5px 15px;
+  border-radius: 10px;
+  background: #eaeaea;
+  width: 57%;
+  margin-top: 25px;
+}
+.details-example p>span {
+  color: #e22323;
+}
