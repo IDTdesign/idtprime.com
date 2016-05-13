@@ -7,6 +7,7 @@
         <area shape="rect" coords="1303,459,1387,476" href="sharing_money.html" alt="SHARING MONEY">
     </map>
     <link href="styles/nivo-slider.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="styles/style_cust.css" rel="stylesheet" type="text/css" media="all" />
 
     <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
     <script>
@@ -17,6 +18,14 @@
     <script type="text/javascript">
         $(window).load(function() {
             $('#slider').nivoSlider(
+                {
+                    effect: 'fold',
+                    animSpeed: 500, // Slide transition speed
+                    pauseTime: 5000 // How long each slide willshow
+                });
+        });
+		$(window).load(function() {
+            $('#carousel').nivoSlider(
                 {
                     effect: 'fold',
                     animSpeed: 500, // Slide transition speed
