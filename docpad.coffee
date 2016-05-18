@@ -12,7 +12,7 @@ docpadConfig = {
     # Specify some site properties
     site:
       # The production url of our website
-      url: "http://idtprime.com"
+      url: "http://IDTdesign.github.io/idtprime.com"
 
       # The default title of our website
       title: "Prime"
@@ -25,12 +25,12 @@ docpadConfig = {
 
       # The website description (for SEO)
       description: """
-        
+
         """
 
       # The website keywords (for SEO) separated by commas
       keywords: """
-        
+
         """
 
       email: "radzkov@gmail.com"
@@ -90,7 +90,7 @@ docpadConfig = {
       )
 
     # Post part before “cut”
-    cuttedContent: (content) ->            
+    cuttedContent: (content) ->
       if @hasReadMore content
         cutIdx = content.search @cutTag
         content[0..cutIdx-1]
@@ -121,14 +121,22 @@ docpadConfig = {
       cachetime: 600000
       changefreq: 'weekly'
       priority: 0.5
+    ghpages:
+      deployRemote: 'deploy'
+      deployBranch: 'gh-pages'
 
-    # sass:
-    #   compass: "true"
-    #   requireLibraries: ['singularitygs']
-    #   outputStyle: 'expanded'
-    #   sassPath: 'theValue'
-    #   scssPath: 'theValue'
-    #   compass: 'theValue'
+	# =================================
+	# DocPad Environments settings
+  environments:
+    production:
+        templateData:
+            site:
+                url: 'http://idtprime.com'
+    development:
+        templateData:
+            site:
+                url: 'http://localhost:9778'
+
   # =================================
   # DocPad Events
 
