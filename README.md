@@ -18,7 +18,7 @@ See also [instruction](http://bevry.me/learn/node-install) for setting up Node.j
 
 On Windows:
 
-1. Run 'Node.js command promt' as Administrator.  
+1. Run 'Node.js command promt' as Administrator.
     ![Node.js command promt](https://github.com/interpaul/idtprime.com/raw/master/docs/images/readme-run-node-js-command-promt.png)
 2. Type `npm install -g npm` and press «Enter» to update Node Package Manager.
 3. Type `npm install -g docpad@6.63` and press «Enter» to install DocPad globally.
@@ -37,16 +37,18 @@ To preview site in browser open [http://localhost:9778](http://localhost:9778)
 
 ## Developing
 
-`src/document` — content pages  
-`src/layout`   — template of the site  
-`src/partials` — includes used in templates  
+`src/document` — content pages
+`src/layout`   — template of the site
+`src/partials` — includes used in templates
 `src/files`    — resources
 
 More docs at [DocPad site](http://docpad.org/docs/overview).
 
 ## Deploy
 
-Run `docpad generate` inside your project directory to compile the site.
+Run `docpad deploy-ghpages --env static` to deploy to staging at [](http://idtdesign.github.io/idtprime.com).
+
+Run `docpad generate --env production` inside your project directory to compile the site.
 
 Static pages of the site will be rendered in `out` directory.
 
