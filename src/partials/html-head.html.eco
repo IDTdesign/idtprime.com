@@ -7,7 +7,7 @@
     <link href="styles/style.css" rel="stylesheet" type="text/css" />
     <%- @partial('googleAnalitycs') %>
 
-    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
     <script>
         $(function(){
             $("#selected").addClass("actived");

@@ -67,7 +67,7 @@ body {
 }
 
 p {
-  text-align:justify; 
+  text-align:justify;
   line-height:22px;
   font-size:13px;
   color:#332c1e;
@@ -95,11 +95,11 @@ a img {
   border:none;
 }
 
-h2{ 
-  font-size:13px; 
-  color:#6a5e3d; 
-  font-weight:normal; 
-  padding-top:67px; 
+h2{
+  font-size:13px;
+  color:#6a5e3d;
+  font-weight:normal;
+  padding-top:67px;
   padding-left:59px;
 }
 
@@ -217,17 +217,17 @@ h3 a:hover{
 .menu ul.main_menu .main_li .sub_menu{
   position: absolute;
   margin:0px;
-  padding:0px; 
+  padding:0px;
   width:200px;
   color:#FFFFFF;
   background-color: #49412a;
   display:none;
   float:none;
   list-style:none;
-  -webkit-border-radius: 0px 0px 10px 10px ; 
-     -moz-border-radius: 0px 0px 10px 10px ; 
-       -o-border-radius: 0px 0px 10px 10px ; 
-          border-radius: 0px 0px 10px 10px ; 
+  -webkit-border-radius: 0px 0px 10px 10px ;
+     -moz-border-radius: 0px 0px 10px 10px ;
+       -o-border-radius: 0px 0px 10px 10px ;
+          border-radius: 0px 0px 10px 10px ;
 }
 
 .menu ul.main_menu .main_li .sub_menu li{
@@ -239,10 +239,10 @@ h3 a:hover{
 }
 
 .menu ul.main_menu .main_li .sub_menu li:last-child{
-  -webkit-border-radius: 0px 0px 10px 10px ; 
-     -moz-border-radius: 0px 0px 10px 10px ; 
-       -o-border-radius: 0px 0px 10px 10px ; 
-          border-radius: 0px 0px 10px 10px ; 
+  -webkit-border-radius: 0px 0px 10px 10px ;
+     -moz-border-radius: 0px 0px 10px 10px ;
+       -o-border-radius: 0px 0px 10px 10px ;
+          border-radius: 0px 0px 10px 10px ;
 }
 
 .menu ul.main_menu .main_li .sub_menu li:hover {
@@ -399,7 +399,7 @@ ul.footer_right_icons li {
   border-radius: 0 0 0 5px;
   color: #000;
   background-color: #a9955f;
-  background-image: 
+  background-image:
   url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAATCAMAAABm1ZcrAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADlQTFRFqJRfpZJdhHRKjXxPRDwmn4xZal07pJBcqJRelYNUmYdWf3BIVEsvoo9biHhNp5NekYBSnIpYe2xFzOEBTAAAAChJREFUeNoEwQkCgBAAALBFzor4/2Ntbq9sewRD9Gu6JfkUl6lyBBgADYcArINi45AAAAAASUVORK5CYII=)
   ,
   url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAABbCAMAAACF3h8qAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAO1QTFRFfW5Fo5BcpZFcinpNj35QjHtOlYNTnYpYoY5biXhMgnJJnoxZe21FnIpXe2xEpZJdmYdWlINTp5NehXVKppJejHxOl4ZViHhMmohXh3hLloRUm4lXqJRfmohWfW9Gn41ZfG1Fo49bgHBHoI1Zi3pNkH9Qjn5QoY5ag3NJe21EiXpNf3BGppNejn1Qh3dLkYBRfm9GkH9RoY1ak4FSgXJIk4JSnIpYpJFco5Bbp5RelYNUg3RJgHFHfnBGf3BHmIZVfG5FgHFIiXlNm4hXjXxPgnNJhHVKkoFSnotZoo9bpZFdl4VUfW5GhnZLqJRe8yxEjwAAAIJJREFUeNocwoc2AgAUANCbmREpITRkZSQtUbJCSvn/z+kd517H/v49ybi1a9skLOhKeHRiHJIuNZ0q2fATVj1IOTJ0oCDt1Z7fcKhnxY6OllGoazi35ELNZ8hZdmbRtQ9r9uXdmYWs79BX9RXWtb17VvHixsC9omngTdmmK1tzAQYAe+MPe/oBVuUAAAAASUVORK5CYII=)
@@ -714,7 +714,7 @@ ul.footer_right_icons li {
 
 .faqs h4:before {
   direction: rtl;
-  content: "." counter(h4number); 
+  content: "." counter(h4number);
   counter-increment: h4number;
   position: absolute;
   left: 1.8em;
@@ -800,7 +800,7 @@ ul.footer_right_icons li {
   font-size:13px;
 }
 
-.field_text { 
+.field_text {
   width:200px; height:20px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -832,7 +832,7 @@ ul.footer_right_icons li {
   margin-top:-8px;
 }
 
-#cashbk_icon {
+.cashbk_icon {
   width:219px;
   height:auto;
   float:left;
@@ -841,14 +841,14 @@ ul.footer_right_icons li {
   padding-left:20px;
 }
 
-#cashbk_middle_contnt {
-  width:44%; 
+.cashbk_middle_contnt {
+  width:416px;
   height:auto;
   float:left;
   padding:30px 0px 0px 45px;
 }
 
-#cashbk_middle_contnt p {
+.cashbk_middle_contnt p {
   color: rgb(106, 94, 61);
   line-height:15px;
 }
@@ -872,13 +872,13 @@ ul.footer_right_icons li {
   cursor:pointer;
 }
 
-.main_menu .active{ 
-  background-image:url(../images/hovr_mnu_bg.jpg); 
+.main_menu .active{
+  background-image:url(../images/hovr_mnu_bg.jpg);
   background-color:#211D14;
 }
 
-.actived_round{ 
-  background-image:url(../images/hovr_mnu_bg.jpg); 
+.actived_round{
+  background-image:url(../images/hovr_mnu_bg.jpg);
   -moz-border-radius:5px 0px 0px 0px ;
   -webkit-border-radius:5px 0px 0px 0px ;
   -o-border-radius:5px 0px 0px 0px ;
@@ -890,7 +890,7 @@ ul.footer_right_icons li {
   color:#FFFFFF;
 }
 
-.trms_heding_ul a:hover { 
+.trms_heding_ul a:hover {
   color:#000000;
   text-decoration:none;
   cursor:text;
@@ -976,15 +976,4 @@ input.btn_sbmit_imge {
   list-style-type: none;
   font-weight: bold;
   margin-left: -20px;
-}
-/*### HOCA PAGE ###*/
-.details-example{
-  padding: 5px 15px;
-  border-radius: 10px;
-  background: #eaeaea;
-  width: 57%;
-  margin-top: 25px;
-}
-.details-example p>span {
-  color: #e22323;
 }

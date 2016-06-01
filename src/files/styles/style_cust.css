@@ -20,7 +20,7 @@ body {
 	background-image: url(../images/main_block_1.jpg);
 	background-repeat: no-repeat;
 }
-	
+
 .main_block_2 {
 	width: 100%;
 	height: 410px;
@@ -42,7 +42,7 @@ body {
 	height: 100%;
 	opacity: 0.9;
 	position: absolute;
-	left: 0px; 
+	left: 0px;
 	top: 0px;
 	color: #ffffff;
 	font-family: 'GothamRounded Book', Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
@@ -63,7 +63,7 @@ body {
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;*/ /*should be uncommented if used separately from the main page*/
 	font-weight: normal;
-	text-align: left;		
+	text-align: left;
 }
 
 .info_block_content p {
@@ -71,7 +71,7 @@ body {
 	margin-top: 30px;
 	margin-bottom: 30px;
 	color: #ffffff;
-	text-align: left;	
+	text-align: left;
 }
 
 .info_block_content p span {
@@ -91,15 +91,16 @@ body {
 }
 
 #info_red {
-	background-color: #ff3366;
+	background-color: #ff0036;
+    opacity: .78;
 }
 
 #info_green {
-	background-color: #99ff66;
+	background-color: #8dec4e;
 }
 
 #info_blue {
-	background-color: #3399ff;
+	background-color: #0b94fd;
 }
 
 .float_card_img {
@@ -107,7 +108,7 @@ body {
     margin-top: -170px;
     margin-left: -260px;
     z-index: 1000;
-	
+
 }
 
 .right_box {
@@ -121,6 +122,3 @@ body {
     z-index: 1;
     position: relative;
 }
-
-
-
