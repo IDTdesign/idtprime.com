@@ -28,13 +28,13 @@
    replace {-spritename-} with the sprite you like to use*/
 .sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(../images/map.png);}
 
-.about_us_btn {width:208px; height:40px; background-position: -2px -99px}
+.about_us_btn {width:50px; height:40px; background-position: -2px -99px}
 .arrow_img {width:7px; height:10px; background-position: -473px -55px}
 .arrows {width:60px; height:30px; background-position: -2px -234px}
 .bullet_black {width:9px; height:16px; background-position: -378px -204px}
 .cards_icon {width:96px; height:34px; background-position: -246px -229px}
 .cash_back {width:218px; height:95px; background-position: -2px -2px}
-.contact_us_btn {width:208px; height:40px; background-position: -222px -86px}
+.contact_us_btn {width:50px; height:40px; background-position: -222px -86px}
 .corp_enq_btn {width:208px; height:40px; background-position: -222px -44px}
 .epay_icon {width:39px; height:49px; background-position: -432px -43px}
 .footer_search_back {width:204px; height:21px; background-position: -172px -206px}
@@ -44,7 +44,7 @@
 .on {width:19px; height:19px; background-position: -432px -94px}
 .pay_point_epay_icons {width:168px; height:91px; background-position: -2px -141px}
 .pay_point_icon {width:58px; height:33px; background-position: -344px -229px}
-.personal_enq_btn {width:208px; height:40px; background-position: -222px -2px}
+.personal_enq_btn {width:50px; height:40px; background-position: -222px -2px}
 .post_office_icon {width:49px; height:39px; background-position: -432px -2px}
 .post_office_tm_icon {width:83px; height:63px; background-position: -172px -141px}
 .register_card_btn {width:180px; height:29px; background-position: -257px -173px}
@@ -326,7 +326,7 @@ h3 a:hover{
   list-style:none;
   margin:0;
   padding:0;
-  width:450px;
+  width:600px;
   overflow:hidden;
   margin-top:15px;
 }
@@ -336,6 +336,28 @@ h3 a:hover{
   float:left;
   display:inline;
   width:50%;
+}
+
+.footer_btns_item {
+    display: block;
+    margin: 5px 30px 5px 5px;
+    height: 32px;
+    line-height: 32px;
+    vertical-align: middle;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.2);
+    color: #b1b3b4;
+}
+
+.footer_btns_item:hover {
+    text-decoration: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+}
+
+.footer_btns_item .sprite {
+    vertical-align: middle;
+    margin: -4px 0 -4px -4px;
 }
 
 .footer_right {

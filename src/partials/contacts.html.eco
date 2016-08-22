@@ -1,6 +1,6 @@
       <div style="padding:20px;">
         <ul>
-          <li><a href="personal_enqury.html" class="<%- @isActive("/personal_enqury") %>">Personal Enquiry</a></li>
+          <li><a href="personal_enqury.html" class="<%- @isActive("/personal_enqury") %>">How to become a Prime Retailer</a></li>
           <li><a href="contact_us.html" class="<%- @isActive("/contact_us") %>">Contact Us</a></li>
         </ul>
       </div>
