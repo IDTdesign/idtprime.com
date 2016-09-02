@@ -7,6 +7,7 @@
 <body>
 <div class="bg_wraper">
     <%- @partial('chat') %>
+    <div style="padding:10px; top:0; text-align:center; fold-size:18px; font-weight:bold; color:red; background-color:white;">Sorry we are currently unable to process any orders via website due to technical issues until further notice.</div>
     <div class="wrapper">
         <div id="header">
             <div class="logo"><a href="index.html"><img src="images/logo.png" alt="prime logo" /></a></div>
