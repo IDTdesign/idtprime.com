@@ -1,0 +1,14 @@
+html.wait {
+    cursor: wait !important;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+#hidden-img{
+    display:none;
+    position:absolute;
+    right:-200px;
+}
+#hidden-img img{
+    border:6px solid #999;
+    border-radius:13px;
+}
